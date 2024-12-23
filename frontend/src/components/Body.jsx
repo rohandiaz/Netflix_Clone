@@ -1,7 +1,9 @@
 import React from 'react';
-import { createBrowserRouter, RouterProvider} from "react-router-dom";
+// import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import Login from './Login';
-// import Browse from './Browse';
+import Browse from './Browse';
+import { createBrowserRouter } from 'react-router-dom';
+import { RouterProvider } from 'react-router';
  
 const Body = () => {
     
@@ -22,4 +24,4 @@ const Body = () => {
     )
 }
 
-export default Body
+export default Body;
