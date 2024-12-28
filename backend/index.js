@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-    origin: 'https://netflix-clone-1-b9iq.onrender.com',
+    origin: 'https://netflix-2-0-ywat.onrender.com',
     credentials: true
 }
 app.use(cors(corsOptions));
